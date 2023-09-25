@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+body {
+    font-family: var(--fonte1);
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header {
+    padding-top: 50px ;
+    text-align: center;
+    height: 18.5vw;
+    color: white;
+    background-color: black;
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 10vw;
+    margin-bottom: 10px;
+}
+
+header > p, a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+header:hover a {
+    text-decoration: underline;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    padding: 10px;
+    max-width: 800px;
+}
+
+main p {
+    font-family: var(--fonte3);
+    padding: 30px;
+    text-align: start;
+    width: 60vw;
+    font-size: 3.5vw;
+    margin-top: 30px;
+}
+
+
+#carta {
+    background-image: url(imagens/fundo-cartas.jpg);
+}
+
+#flor {
+    background-image: url(imagens/fundo-flores-pq.jpg);
+}
+
+.imgcont {
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: lightgray;
+    height: 65vw;
+    width: 100vw;
+    margin: 30px -21px;
+}
+
+.imgtxt {
+    display: inline-block;
+    padding: 8px;
+    text-shadow: 1px 1px 1px black;
+    width: 60vw;
+    color: white;
+    background-color: rgba(3, 3, 3, 0.541);
+    margin: 50px 0px 0px 35px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
